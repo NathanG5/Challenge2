@@ -1,0 +1,37 @@
+:root{
+    --primary-color:lightgreen;
+    --secondary-color:purple;
+    --tertiary-color:gold;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+header {
+    font-size: 16px;
+    padding: 20px 35px;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+  }
+  .bio {
+      font-size: 15px;
+  }
